@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+.App {
+  overflow-x: hidden;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
