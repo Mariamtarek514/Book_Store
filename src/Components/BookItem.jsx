@@ -11,7 +11,7 @@ const BookItem = ({ book }) => {
                     alt={book.title}
                 />
                 <div className="card-body  d-flex flex-column justify-content-center align-items-center gap-2">
-                    <Link to={`${book.id}`} className="card-title ">
+                    <Link to={`/book/${book.id}`} className="card-title ">
                         <strong>{book.title}</strong>
                     </Link>
                     <div className="d-flex gap-1">
