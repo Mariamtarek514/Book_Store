@@ -1,0 +1,46 @@
+.search {
+    width: 500px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    input {
+        width: 90%;
+        height: 100%;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        padding: 10px 25px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-size: 18px;
+    }
+    button {
+        svg {
+            fill: #8d27ae;
+        }
+        &:focus {
+            border: 0;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+        .search {
+            width: 95%;
+            input {
+                width: 80%;
+            }
+        }
+    }
+}

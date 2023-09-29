@@ -1,0 +1,33 @@
+.bookDetails {
+    .goBack {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    img {
+        width: 100%;
+        max-height: 450px;
+        object-fit: contain;
+        object-position: center;
+    }
+    .description {
+        max-height: 450px;
+        overflow-y: auto;
+        @media (min: 1220px) {
+            width: 700px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+        &_p {
+            color: #666;
+        }
+        strong {
+            font-weight: 600;
+            color: #333;
+        }
+        p:not(.description_p) {
+            color: #444;
+        }
+    }
+}
