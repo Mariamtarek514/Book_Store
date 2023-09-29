@@ -5,8 +5,8 @@ const About = () => {
         <div className="main_content about">
             <div className="container pt-4">
                 <h3 className="text-uppercase mb-4">About</h3>
-                <div className="row align-items-start">
-                    <div className="col-lg-6 col-md-6 col-12 pe-0 pe-md-3">
+                <div className="row align-items-start m-auto">
+                    <div className="col-lg-6 col-md-6 col-12 pe-0 pe-md-3 mb-4 mb-md-0">
                         <img src={aboutImg} alt="about" className="img-fluid" />
                     </div>
                     <div className="col-md-6 col-12 ps-0 ps-md-5">

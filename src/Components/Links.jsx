@@ -16,12 +16,20 @@ const Links = () => {
             </button>
             <ul className={`d-flex gap-3 mb-0 ${toggleMenu ? "active" : null}`}>
                 <li>
-                    <NavLink to="home" className="text-uppercase">
+                    <NavLink
+                        to="home"
+                        className="text-uppercase"
+                        onClick={() => setToggleMenu(false)}
+                    >
                         home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="about" className="text-uppercase">
+                    <NavLink
+                        to="about"
+                        className="text-uppercase"
+                        onClick={() => setToggleMenu(false)}
+                    >
                         about
                     </NavLink>
                 </li>
